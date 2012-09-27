@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1733073C1614B74F00548E6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1733073B1614B74F00548E6E /* UIKit.framework */; };
+		1733073E1614B74F00548E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1733073D1614B74F00548E6E /* Foundation.framework */; };
+		173307401614B74F00548E6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1733073F1614B74F00548E6E /* CoreGraphics.framework */; };
+		173307461614B74F00548E6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 173307441614B74F00548E6E /* InfoPlist.strings */; };
+		173307481614B74F00548E6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 173307471614B74F00548E6E /* main.m */; };
+		1733074C1614B74F00548E6E /* xyzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1733074B1614B74F00548E6E /* xyzAppDelegate.m */; };
+		173307541614B74F00548E6E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173307531614B74F00548E6E /* SenTestingKit.framework */; };
+		173307551614B74F00548E6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1733073B1614B74F00548E6E /* UIKit.framework */; };
+		173307561614B74F00548E6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1733073D1614B74F00548E6E /* Foundation.framework */; };
+		1733075E1614B74F00548E6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1733075C1614B74F00548E6E /* InfoPlist.strings */; };
+		173307611614B74F00548E6E /* novojecolarecoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173307601614B74F00548E6E /* novojecolarecoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		173307571614B74F00548E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1733072E1614B74E00548E6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173307361614B74E00548E6E;
+			remoteInfo = novojecolareco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		173307371614B74E00548E6E /* novojecolareco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = novojecolareco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1733073B1614B74F00548E6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1733073D1614B74F00548E6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1733073F1614B74F00548E6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		173307431614B74F00548E6E /* novojecolareco-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "novojecolareco-Info.plist"; sourceTree = "<group>"; };
+		173307451614B74F00548E6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		173307471614B74F00548E6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		173307491614B74F00548E6E /* novojecolareco-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "novojecolareco-Prefix.pch"; sourceTree = "<group>"; };
+		1733074A1614B74F00548E6E /* xyzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xyzAppDelegate.h; sourceTree = "<group>"; };
+		1733074B1614B74F00548E6E /* xyzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xyzAppDelegate.m; sourceTree = "<group>"; };
+		173307521614B74F00548E6E /* novojecolarecoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = novojecolarecoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		173307531614B74F00548E6E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1733075B1614B74F00548E6E /* novojecolarecoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "novojecolarecoTests-Info.plist"; sourceTree = "<group>"; };
+		1733075D1614B74F00548E6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1733075F1614B74F00548E6E /* novojecolarecoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = novojecolarecoTests.h; sourceTree = "<group>"; };
+		173307601614B74F00548E6E /* novojecolarecoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = novojecolarecoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173307341614B74E00548E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1733073C1614B74F00548E6E /* UIKit.framework in Frameworks */,
+				1733073E1614B74F00548E6E /* Foundation.framework in Frameworks */,
+				173307401614B74F00548E6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1733074E1614B74F00548E6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173307541614B74F00548E6E /* SenTestingKit.framework in Frameworks */,
+				173307551614B74F00548E6E /* UIKit.framework in Frameworks */,
+				173307561614B74F00548E6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1733072C1614B74E00548E6E = {
+			isa = PBXGroup;
+			children = (
+				173307411614B74F00548E6E /* novojecolareco */,
+				173307591614B74F00548E6E /* novojecolarecoTests */,
+				1733073A1614B74E00548E6E /* Frameworks */,
+				173307381614B74E00548E6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		173307381614B74E00548E6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173307371614B74E00548E6E /* novojecolareco.app */,
+				173307521614B74F00548E6E /* novojecolarecoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1733073A1614B74E00548E6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1733073B1614B74F00548E6E /* UIKit.framework */,
+				1733073D1614B74F00548E6E /* Foundation.framework */,
+				1733073F1614B74F00548E6E /* CoreGraphics.framework */,
+				173307531614B74F00548E6E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		173307411614B74F00548E6E /* novojecolareco */ = {
+			isa = PBXGroup;
+			children = (
+				1733074A1614B74F00548E6E /* xyzAppDelegate.h */,
+				1733074B1614B74F00548E6E /* xyzAppDelegate.m */,
+				173307421614B74F00548E6E /* Supporting Files */,
+			);
+			path = novojecolareco;
+			sourceTree = "<group>";
+		};
+		173307421614B74F00548E6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				173307431614B74F00548E6E /* novojecolareco-Info.plist */,
+				173307441614B74F00548E6E /* InfoPlist.strings */,
+				173307471614B74F00548E6E /* main.m */,
+				173307491614B74F00548E6E /* novojecolareco-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		173307591614B74F00548E6E /* novojecolarecoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1733075F1614B74F00548E6E /* novojecolarecoTests.h */,
+				173307601614B74F00548E6E /* novojecolarecoTests.m */,
+				1733075A1614B74F00548E6E /* Supporting Files */,
+			);
+			path = novojecolarecoTests;
+			sourceTree = "<group>";
+		};
+		1733075A1614B74F00548E6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1733075B1614B74F00548E6E /* novojecolarecoTests-Info.plist */,
+				1733075C1614B74F00548E6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173307361614B74E00548E6E /* novojecolareco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173307641614B74F00548E6E /* Build configuration list for PBXNativeTarget "novojecolareco" */;
+			buildPhases = (
+				173307331614B74E00548E6E /* Sources */,
+				173307341614B74E00548E6E /* Frameworks */,
+				173307351614B74E00548E6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = novojecolareco;
+			productName = novojecolareco;
+			productReference = 173307371614B74E00548E6E /* novojecolareco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		173307511614B74F00548E6E /* novojecolarecoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173307671614B74F00548E6E /* Build configuration list for PBXNativeTarget "novojecolarecoTests" */;
+			buildPhases = (
+				1733074D1614B74F00548E6E /* Sources */,
+				1733074E1614B74F00548E6E /* Frameworks */,
+				1733074F1614B74F00548E6E /* Resources */,
+				173307501614B74F00548E6E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173307581614B74F00548E6E /* PBXTargetDependency */,
+			);
+			name = novojecolarecoTests;
+			productName = novojecolarecoTests;
+			productReference = 173307521614B74F00548E6E /* novojecolarecoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1733072E1614B74E00548E6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = xyz;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = eu;
+			};
+			buildConfigurationList = 173307311614B74E00548E6E /* Build configuration list for PBXProject "novojecolareco" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1733072C1614B74E00548E6E;
+			productRefGroup = 173307381614B74E00548E6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173307361614B74E00548E6E /* novojecolareco */,
+				173307511614B74F00548E6E /* novojecolarecoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173307351614B74E00548E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173307461614B74F00548E6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1733074F1614B74F00548E6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1733075E1614B74F00548E6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		173307501614B74F00548E6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173307331614B74E00548E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173307481614B74F00548E6E /* main.m in Sources */,
+				1733074C1614B74F00548E6E /* xyzAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1733074D1614B74F00548E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173307611614B74F00548E6E /* novojecolarecoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173307581614B74F00548E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173307361614B74E00548E6E /* novojecolareco */;
+			targetProxy = 173307571614B74F00548E6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		173307441614B74F00548E6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173307451614B74F00548E6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1733075C1614B74F00548E6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1733075D1614B74F00548E6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		173307621614B74F00548E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		173307631614B74F00548E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		173307651614B74F00548E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "novojecolareco/novojecolareco-Prefix.pch";
+				INFOPLIST_FILE = "novojecolareco/novojecolareco-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		173307661614B74F00548E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "novojecolareco/novojecolareco-Prefix.pch";
+				INFOPLIST_FILE = "novojecolareco/novojecolareco-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		173307681614B74F00548E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/novojecolareco.app/novojecolareco";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "novojecolareco/novojecolareco-Prefix.pch";
+				INFOPLIST_FILE = "novojecolarecoTests/novojecolarecoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		173307691614B74F00548E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/novojecolareco.app/novojecolareco";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "novojecolareco/novojecolareco-Prefix.pch";
+				INFOPLIST_FILE = "novojecolarecoTests/novojecolarecoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173307311614B74E00548E6E /* Build configuration list for PBXProject "novojecolareco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173307621614B74F00548E6E /* Debug */,
+				173307631614B74F00548E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173307641614B74F00548E6E /* Build configuration list for PBXNativeTarget "novojecolareco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173307651614B74F00548E6E /* Debug */,
+				173307661614B74F00548E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		173307671614B74F00548E6E /* Build configuration list for PBXNativeTarget "novojecolarecoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173307681614B74F00548E6E /* Debug */,
+				173307691614B74F00548E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1733072E1614B74E00548E6E /* Project object */;
+}
